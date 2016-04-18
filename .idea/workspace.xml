@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e3eb2540-d029-4f1e-b91a-82ccac34e82c" name="Default" comment="" />
+    <list default="true" id="e3eb2540-d029-4f1e-b91a-82ccac34e82c" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/Basket.scala" afterPath="$PROJECT_DIR$/src/main/scala/Basket.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/scala/BasketSpec.scala" afterPath="$PROJECT_DIR$/src/test/scala/BasketSpec.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+    </list>
     <ignored path="Basket.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -54,7 +58,7 @@
       <file leaf-file-name="BasketSpec.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/scala/BasketSpec.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.076595746">
+            <state vertical-scroll-proportion="-2.8297873">
               <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
               <folding />
             </state>
@@ -65,7 +69,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/scala/Basket.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+              <caret line="19" column="3" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -75,13 +79,16 @@
         <entry file="file://$PROJECT_DIR$/../../../scala/shop.sc">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-9.0">
-              <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
+              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="19" selection-end-column="44" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -93,8 +100,8 @@
       <list>
         <option value="$PROJECT_DIR$/build.sbt" />
         <option value="$PROJECT_DIR$/src/test/scala/SetSpec.scala" />
-        <option value="$PROJECT_DIR$/src/test/scala/BasketSpec.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/Basket.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/BasketSpec.scala" />
       </list>
     </option>
   </component>
@@ -106,7 +113,7 @@
     <option name="width" value="1418" />
     <option name="height" value="873" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -271,22 +278,6 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="BasketSpec.A Basket when with offers of buy 1 apple and get 1 free and buy 3 oranges for the price of 2 when basket has 3 oranges should amount to a total of £0.50" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <extension name="scalaCoverage" />
-      <module name="basket" />
-      <setting name="path" value="BasketSpec" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="A Basket when with offers of buy 1 apple and get 1 free and buy 3 oranges for the price of 2 when basket has 3 oranges should amount to a total of £0.50" />
-      <setting name="testKind" value="Test name" />
-      <setting name="showProgressMessages" value="true" />
-      <envs />
-      <method />
-    </configuration>
     <configuration default="false" name="BasketSpec.A Basket when with offers of buy 1 apple and get 1 free and buy 3 oranges for the price of 2 when basket has 2 apples should amount to a total of £0.60" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <extension name="scalaCoverage" />
@@ -303,22 +294,6 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="BasketSpec.A Basket when empty should have return a total of £0.00" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <extension name="scalaCoverage" />
-      <module name="basket" />
-      <setting name="path" value="BasketSpec" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="A Basket when empty should have return a total of £0.00" />
-      <setting name="testKind" value="Test name" />
-      <setting name="showProgressMessages" value="true" />
-      <envs />
-      <method />
-    </configuration>
     <configuration default="false" name="BasketSpec.A Basket when with 3 apples and 1 orange should amount to a total of £2.05" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <extension name="scalaCoverage" />
@@ -330,6 +305,38 @@
       <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
       <setting name="searchForTest" value="Across module dependencies" />
       <setting name="testName" value="A Basket when with 3 apples and 1 orange should amount to a total of £2.05" />
+      <setting name="testKind" value="Test name" />
+      <setting name="showProgressMessages" value="true" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="BasketSpec.A Basket when with offers of buy 1 apple and get 1 free and buy 3 oranges for the price of 2 when basket has 4 apples and 4 oranges should amount to a total of £1.95" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <extension name="scalaCoverage" />
+      <module name="basket" />
+      <setting name="path" value="BasketSpec" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="A Basket when with offers of buy 1 apple and get 1 free and buy 3 oranges for the price of 2 when basket has 4 apples and 4 oranges should amount to a total of £1.95" />
+      <setting name="testKind" value="Test name" />
+      <setting name="showProgressMessages" value="true" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="BasketSpec.A Basket when with offers of buy 1 apple and get 1 free and buy 3 oranges for the price of 2 when there's 3 oranges should have a discount calculation of £0.25" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <extension name="scalaCoverage" />
+      <module name="basket" />
+      <setting name="path" value="BasketSpec" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="A Basket when with offers of buy 1 apple and get 1 free and buy 3 oranges for the price of 2 when there's 3 oranges should have a discount calculation of £0.25" />
       <setting name="testKind" value="Test name" />
       <setting name="showProgressMessages" value="true" />
       <envs />
@@ -577,18 +584,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="ScalaTest.BasketSpec" />
-      <item index="1" class="java.lang.String" itemvalue="ScalaTest.BasketSpec.A Basket when with offers of buy 1 apple and get 1 free and buy 3 oranges for the price of 2 when basket has 3 oranges should amount to a total of £0.50" />
-      <item index="2" class="java.lang.String" itemvalue="ScalaTest.BasketSpec.A Basket when with offers of buy 1 apple and get 1 free and buy 3 oranges for the price of 2 when basket has 2 apples should amount to a total of £0.60" />
-      <item index="3" class="java.lang.String" itemvalue="ScalaTest.BasketSpec.A Basket when empty should have return a total of £0.00" />
-      <item index="4" class="java.lang.String" itemvalue="ScalaTest.BasketSpec.A Basket when with 3 apples and 1 orange should amount to a total of £2.05" />
+      <item index="1" class="java.lang.String" itemvalue="ScalaTest.BasketSpec.A Basket when with offers of buy 1 apple and get 1 free and buy 3 oranges for the price of 2 when basket has 2 apples should amount to a total of £0.60" />
+      <item index="2" class="java.lang.String" itemvalue="ScalaTest.BasketSpec.A Basket when with 3 apples and 1 orange should amount to a total of £2.05" />
+      <item index="3" class="java.lang.String" itemvalue="ScalaTest.BasketSpec.A Basket when with offers of buy 1 apple and get 1 free and buy 3 oranges for the price of 2 when basket has 4 apples and 4 oranges should amount to a total of £1.95" />
+      <item index="4" class="java.lang.String" itemvalue="ScalaTest.BasketSpec.A Basket when with offers of buy 1 apple and get 1 free and buy 3 oranges for the price of 2 when there's 3 oranges should have a discount calculation of £0.25" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="ScalaTest.BasketSpec" />
-        <item index="1" class="java.lang.String" itemvalue="ScalaTest.BasketSpec.A Basket when with 3 apples and 1 orange should amount to a total of £2.05" />
-        <item index="2" class="java.lang.String" itemvalue="ScalaTest.BasketSpec.A Basket when empty should have return a total of £0.00" />
-        <item index="3" class="java.lang.String" itemvalue="ScalaTest.BasketSpec.A Basket when with offers of buy 1 apple and get 1 free and buy 3 oranges for the price of 2 when basket has 2 apples should amount to a total of £0.60" />
-        <item index="4" class="java.lang.String" itemvalue="ScalaTest.BasketSpec.A Basket when with offers of buy 1 apple and get 1 free and buy 3 oranges for the price of 2 when basket has 3 oranges should amount to a total of £0.50" />
+        <item index="1" class="java.lang.String" itemvalue="ScalaTest.BasketSpec.A Basket when with offers of buy 1 apple and get 1 free and buy 3 oranges for the price of 2 when there's 3 oranges should have a discount calculation of £0.25" />
+        <item index="2" class="java.lang.String" itemvalue="ScalaTest.BasketSpec.A Basket when with offers of buy 1 apple and get 1 free and buy 3 oranges for the price of 2 when basket has 2 apples should amount to a total of £0.60" />
+        <item index="3" class="java.lang.String" itemvalue="ScalaTest.BasketSpec.A Basket when with offers of buy 1 apple and get 1 free and buy 3 oranges for the price of 2 when basket has 4 apples and 4 oranges should amount to a total of £1.95" />
+        <item index="4" class="java.lang.String" itemvalue="ScalaTest.BasketSpec.A Basket when with 3 apples and 1 orange should amount to a total of £2.05" />
       </list>
     </recent_temporary>
   </component>
@@ -695,7 +702,7 @@
     <entry file="file://$PROJECT_DIR$/../../../scala/shop.sc">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-9.0">
-          <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="19" selection-end-column="44" />
           <folding />
         </state>
       </provider>
@@ -703,14 +710,14 @@
     <entry file="file://$PROJECT_DIR$/src/main/scala/Basket.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <caret line="19" column="3" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/BasketSpec.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.076595746">
+        <state vertical-scroll-proportion="-2.8297873">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
           <folding />
         </state>
